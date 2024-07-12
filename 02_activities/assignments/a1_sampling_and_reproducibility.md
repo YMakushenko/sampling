@@ -38,8 +38,8 @@ The distribution patterns and frequencies for both "Infections from Weddings" an
 
 
 III. Reproducibility check: The Python script was modified to increase the number of simulation repetitions from 1000 to 5000, and running multiple times.
-Infections from Weddings: The graphs now show that the highest frequency is centered around the 18-23% range, with another significant frequency around the 14-20% range. This pattern closely matches the original blog post's results.
-Traced to Weddings: The graphs display frequencies almost equally concentrated around 19,5% and 24,5%, with a slight preference for frequencies up to 22%. This also closely matches the original blog post's results.
+Infections from Weddings: The graphs now show that the highest frequency is centered around the 18-23% range. This pattern closely matches the original blog post's results.
+Traced to Weddings: The graphs display frequencies almost equally concentrated around 14,5% and 24,5%, with a slight preference for frequencies up to 22%. This also closely matches the original blog post's results.
 With the increased number of repetitions (5000), the code appears to reproduce the results much more closely to those in the original blog post. The graphs for both "Infections from Weddings" and "Traced to Weddings" cases practically repeat the result in the original blog post, showing high reproducibility.
 
 
