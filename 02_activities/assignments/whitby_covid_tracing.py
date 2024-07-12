@@ -17,7 +17,7 @@ ATTACK_RATE = 0.10
 TRACE_SUCCESS = 0.20
 SECONDARY_TRACE_THRESHOLD = 2
 
-def simulate_event(m):
+def simulate_event(m, seed):
   """
   Simulates the infection and tracing process for a series of events.
   
@@ -32,6 +32,9 @@ def simulate_event(m):
   - A tuple containing the proportion of infections and the proportion of traced cases
     that are attributed to weddings.
   """
+  # Set the random seed for reproducibility
+  np.random.seed(seed)
+
   # Create DataFrame for people at events with initial infection and traced status
   events = ['wedding'] * 200 + ['brunch'] * 800
   ppl = pd.DataFrame({
@@ -71,7 +74,7 @@ def simulate_event(m):
 np.random.seed(10)
 
 # Run the simulation 1000 times
-results = [simulate_event(m) for m in range(1000)]
+results = [simulate_event(m, seed=10 + m) for m in range(1000)]
 props_df = pd.DataFrame(results, columns=["Infections", "Traces"])
 
 # Plotting the results

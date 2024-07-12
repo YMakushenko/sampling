@@ -10,10 +10,43 @@ Modify the number of repetitions in the simulation to 1000 (from the original 50
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Yuliia Makushenko
 
 ```
-Please write your explanation here...
+I. Identify sampling stages in the model:
+1. Infection simulation: Simulates how infections spread among people attending events. A random subset of attendees is infected based on the ATTACK_RATE parameter (set at 0.10). This is done using np.random.choice to randomly select which individuals get infected.
+2. Primary contact tracing: After infections occur, this stage randomly decides which infected individuals get traced based on the TRACE_SUCCESS parameter (set at 0.20). np.random.rand generates random values to determine if each infected person is traced.
+3. Secondary contact tracing: If two infections are traced back to the same event (controlled by SECONDARY_TRACE_THRESHOLD set to 2), all attendees of that event are tested. This stage involves sampling events based on attendance and tracing thresholds.
+The sample size is 1000 individuals.
+The sampling frame is 1000 individuals.
+The underlying distributions:
+- Infection probability distribution;
+- Primary contact tracing distribution;
+- Secondary contact tracing distribution.
+Relation to blog post procedure:
+1. The model simulates events where people gather, similar to social gatherings mentioned in the blog post (e.g., weddings, brunches).
+2. It simulates how infections spread among attendees, similar to the blog's discussion on infection scenarios in different settings.
+3. Primary contact tracing in the model reflects the challenges discussed in the blog regarding the effectiveness and limitations of tracing efforts.
+4. Secondary contact tracing reflects the intensive tracing efforts described in the blog to identify cases linked to specific events.
+5. The model calculates proportions of infections and traces attributed to different event types, highlighting biases in perceived infection sources due to tracing efficiency.
+
+
+II. Comparison the Python script file as is with original blog post: The Python script was run as was with the number of simulation repetitions 1000.
+Infections from Weddings. Frequency distribution: the highest frequency (~460) is centered around the 20-26% range, another significant frequency (~380) is centered around the 14-20% range. The weighted average of infections from weddings is approximately 20%. The distribution and frequencies of infections from weddings in the code as is reproduces those described in the original blog post.
+Traced to Weddings. Frequency Distribution: almost equal frequency of cases centers around 20-25%, with a slight preference for 20%. The distribution and frequencies of traces to weddings in the code as is also reproduces those described in the original blog post.
+The distribution patterns and frequencies for both "Infections from Weddings" and "Traced to Weddings" match the descriptions, confirming that the script is functioning properly.
+
+
+III. Reproducibility check: The Python script was modified to increase the number of simulation repetitions from 1000 to 5000, and running multiple times.
+Infections from Weddings: The graphs now show that the highest frequency is centered around the 18-23% range, with another significant frequency around the 14-20% range. This pattern closely matches the original blog post's results.
+Traced to Weddings: The graphs display frequencies almost equally concentrated around 19,5% and 24,5%, with a slight preference for frequencies up to 22%. This also closely matches the original blog post's results.
+With the increased number of repetitions (5000), the code appears to reproduce the results much more closely to those in the original blog post. The graphs for both "Infections from Weddings" and "Traced to Weddings" cases practically repeat the result in the original blog post, showing high reproducibility.
+
+
+IV. Ensuring reproducibility:
+1. Add the seed setting inside the simulate_event function to guarantee that the same seed is used for each simulation. It should be done before any random operation inside the simulate_event function to ensure each simulation run is identical, regardless of the overall script's randomness state.
+2. By passing a unique seed to each simulation run (seed=10 + m) ensure that each run of the function uses a unique but consistent seed. This guarantees that the same random numbers are generated for each run of the loop, making the output reproducible. By initializing the seed inside the simulate_event function, we ensure that any random operations within the function use this seed, making each simulation reproducible.
+3. Run the script multiple times. It should produce the same output, ensuring reproducibility.
 
 ```
 
