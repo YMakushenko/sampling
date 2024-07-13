@@ -16,29 +16,70 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 
 # Your Changes
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `3`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to understand how age affects people's music tastes and whether these tastes change over a person's lifetime. If so, how? Especially if it relates to perceptions of popular music.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: The target population for this survey is people of all ages who have access to music and can provide insights into their music preferences.
+Sampling frame: The sampling frame will consist of individuals from different age groups who are available through different platforms (online platforms, community centers, and university contact database).
+Sampling units: The sampling units are individual respondents who will complete the survey.
+Observational units: The observational units are the specific pieces of information collected from each respondent.
+Overall sampling strategy: We'll use a stratified sampling strategy to ensure representation of different age groups. We'll divide the population into age groups (under 18, 18-30, 31-45, 46-60, over 60) and then randomly sample within each group to get a diverse range of responses.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
+1. What is your age?
+-   Under 18
+-   18-30
+-   31-45
+-   46-60
+-   Over 60
+2. How important is music in your daily life?
+-   Very important
+-   Somewhat important
+-   Not very important
+-   Not important at all
+3. What type of music do you currently listen? (Select all that apply)
+-   Alternative
+-   Classical
+-   Country
+-   Electronic/Dance
+-   Jazz
+-   K-pop
+-   Pop
+-   R&B/Soul
+-   Rap/Hip-hop
+-   Rock/Metal
+-   Other (please specify): ______________
+4. Has your music taste changed over the years? If so, how?
+-   No, it hasn't change.
+-   Yes, it's chanched (please specify): ______________
+5. Do you listen to popular music from your current age group or from a different age group?
+-   Current age group
+-   Different age group (please specify): ______________
+6. How often do you discover new music?
+-   Daily
+-   Weekly
+-   Monthly
+-   Yearly
+-   Never
+7. Do you think your music taste is influenced by your age?
+-   Yes
+-   No
+-   Not sure
+8. Do you like the popular music that is trending now?
+-   Yes
+-   No
+-   Your anser (please specify): ______________
+9. Could you please name a few of your favorite songs or artists from when you were a teenager?
+-   I don't remember.
+-   Yes, (please specify): ______________
 10. write your question here... (optional)
 ```
 
