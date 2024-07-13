@@ -35,51 +35,51 @@ Overall sampling strategy: We'll use a stratified sampling strategy to ensure re
 Your 5-10 question survey:
 ```
 1. What is your age?
-U+25A1; Under 18
-U+25A1; 18-30
--   31-45
--   46-60
--   Over 60
+◌   Under 18
+◌   18-30
+◌   31-45
+◌   46-60
+◌   Over 60
 2. How important is music in your daily life?
--   Very important
--   Somewhat important
--   Not very important
--   Not important at all
+◌   Very important
+◌   Somewhat important
+◌   Not very important
+◌   Not important at all
 3. What type of music do you currently listen? (Select all that apply)
--   Alternative
--   Classical
--   Country
--   Electronic/Dance
--   Jazz
--   K-pop
--   Pop
--   R&B/Soul
--   Rap/Hip-hop
--   Rock/Metal
--   Other (please specify): ______________
+□   Alternative
+□   Classical
+□   Country
+□   Electronic/Dance
+□   Jazz
+□   K□pop
+□   Pop
+□   R&B/Soul
+□   Rap/Hip□hop
+□   Rock/Metal
+□   Other (please specify): ______________
 4. Has your music taste changed over the years? If so, how?
--   No, it hasn't change.
--   Yes, it's chanched (please specify): ______________
+◌   No, it hasn't change.
+◌   Yes, it's chanched (please specify): ______________
 5. Do you listen to popular music from your current age group or from a different age group?
--   Current age group
--   Different age group (please specify): ______________
+◌   Current age group
+◌   Different age group (please specify): ______________
 6. How often do you discover new music?
--   Daily
--   Weekly
--   Monthly
--   Yearly
--   Never
+◌   Daily
+◌   Weekly
+◌   Monthly
+◌   Yearly
+◌   Never
 7. Do you think your music taste is influenced by your age?
--   Yes
--   No
--   Not sure
+◌   Yes
+◌   No
+◌   Not sure
 8. Do you like the popular music that is trending now?
--   Yes
--   No
--   Your anser (please specify): ______________
+◌   Yes
+◌   No
+◌   Your anser (please specify): ______________
 9. Could you please name a few of your favorite songs or artists from when you were a teenager?
--   I don't remember.
--   Yes, (please specify): ______________
+◌   I don't remember.
+◌   Yes, (please specify): ______________
 10. write your question here... (optional)
 ```
 
