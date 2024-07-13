@@ -35,9 +35,8 @@ Overall sampling strategy: We'll use a stratified sampling strategy to ensure re
 Your 5-10 question survey:
 ```
 1. What is your age?
--   Participants are not expected to have any coding experience; the
--   Under 18
--   18-30
+U+25A1; Under 18
+U+25A1; 18-30
 -   31-45
 -   46-60
 -   Over 60
