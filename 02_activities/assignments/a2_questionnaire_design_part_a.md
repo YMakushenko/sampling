@@ -51,10 +51,10 @@ Your 5-10 question survey:
 □   Country
 □   Electronic/Dance
 □   Jazz
-□   K□pop
+□   K-pop
 □   Pop
 □   R&B/Soul
-□   Rap/Hip□hop
+□   Rap/Hip-hop
 □   Rock/Metal
 □   Other (please specify): ______________
 4. Has your music taste changed over the years? If so, how?
