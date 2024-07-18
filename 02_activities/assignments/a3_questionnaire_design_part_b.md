@@ -4,19 +4,82 @@
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
 
     ```
-    write your answer here...
+    I expect the quality of my sample to be representative of my target population. It includes people of all ages who listen to music. I'm using a stratified sampling method and want to get responses from different age groups. This approach helps ensure that no age group is overlooked or over-represented. However, some problems can accur if the platforms used to find participants dom't reach everyone in the target population. In addition, some age groups may respond to surveys less, and non-response bias may accur. Maybe I'll have to contact the persons who didn't answer.
     ```
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
 
     ```
-    write your answer here...
+    You can find my original survey (Questionnaire. Part A): https://github.com/YMakushenko/sampling/blob/questionnaire-a/02_activities/assignments/a2_questionnaire_design_part_a.md
+    I wish to make the following changes to it:
+    1. What is your age?
+        ◌   Under 18
+        ◌   18-30
+        ◌   31-45
+        ◌   46-60
+        ◌   Over 60
+
+    2. How important is music in your daily life?
+        ◌   Very important
+        ◌   Somewhat important
+        ◌   Not very important
+        ◌   Not important at all
+
+    3. What type of music do you currently listen? (Select all that apply)
+        □   Alternative
+        □   Classical
+        □   Country
+        □   Electronic/Dance
+        □   Jazz
+        □   K-pop
+        □   Pop
+        □   R&B/Soul
+        □   Rap/Hip-hop
+        □   Rock/Metal
+        □   Other (please specify): ______________
+
+    4. Has your music taste changed over the years? If yes, how?
+        ◌   No, it hasn't change.
+        ◌   Yes, it's chanched (please specify): ______________
+
+    5. Do you listen to popular music from your current age group or from a different age group?
+        ◌   Current age group
+        ◌   Different age group (please specify): ______________
+
+    6. How often do you discover new music?
+        ◌   Daily
+        ◌   Weekly
+        ◌   Monthly
+        ◌   Yearly
+        ◌   Never
+
+    7. Do you think your music taste is influenced by your age?
+        ◌   Yes
+        ◌   No
+        ◌   Not sure
+
+    8. How much do you enjoy the popular music that is trending now?
+        ◌   Very much
+        ◌   Somewhat
+        ◌   Neutral
+        ◌   Not much
+        ◌   Not at all
+
+    9. Could you please name a few of your favorite songs or artists from when you were a teenager?
+        ◌   I don't remember.
+        ◌   Yes, (please specify): ______________
+
+
+    The reason for the changes I made:
+    1. I added spaces between the questions to improve visualization of the questionnaire and ease of perception.
+    2. Question 4. I replaced the word "so" in the question with the word "yes". This wording is clearer and easier to understand.
+    3. Question 8. I paraphrased the question and possible answers to better range the answers and reduce the pressure to answer a certain way.
     ```
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
 
     ```
-    write your answer here...
+    In my opinion the purpose of my survey couldn't have been fulfilled through an observational study. Observational study can show patterns in musical preferences across age groups, but it won't explain personal reasons and opinions for those music taste. The survey method allows me to ask direct questions about personal opinions that are important to understanding how and why musical tastes change. An observational study will miss this personal data, so it isn't effective for the purposes of the study.
     ```
 
 ## Why am I doing this assignment?
