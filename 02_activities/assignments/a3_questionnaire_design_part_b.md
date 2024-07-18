@@ -41,7 +41,7 @@
 
     4. Has your music taste changed over the years? If yes, how?
         ◌   No, it hasn't changed.
-        ◌   Yes, it's chanched (please specify): ______________
+        ◌   Yes, it's changed (please specify): ______________
 
     5. Do you listen to popular music from your current age group or from a different age group?
         ◌   Current age group
