@@ -4,7 +4,7 @@
 1. Comment on the quality of your sample. Do you expect it to be representative of your target population? Why or why not?
 
     ```
-    I expect the quality of my sample to be representative of my target population. It includes people of all ages who listen to music. I'm using a stratified sampling method and want to get responses from different age groups. This approach helps ensure that no age group is overlooked or over-represented. However, some problems can accur if the platforms used to find participants dom't reach everyone in the target population. In addition, some age groups may respond to surveys less, and non-response bias may accur. Maybe I'll have to contact the persons who didn't answer.
+    I expect the quality of my sample to be representative of my target population. It includes people of all ages who listen to music. I'm using a stratified sampling method and want to get responses from different age groups. This approach helps ensure that no age group is overlooked or over-represented. However, some problems can occur if the platforms used to find participants don't reach everyone in the target population. In addition, some age groups may respond to surveys less, and non-response bias may occur. Maybe I'll have to contact the persons who didn't answer.
     ```
 
 2. Given the class content (error, survey quality, ethics) covered since Part A of the assignment, do you wish to make any changes to your original survey? If so, make a copy of your original survey and make any desired changes. Describe the changes and your reasoning. Provide a link here for submission.
@@ -22,6 +22,7 @@
     2. How important is music in your daily life?
         ◌   Very important
         ◌   Somewhat important
+        ◌   Neutral
         ◌   Not very important
         ◌   Not important at all
 
@@ -39,7 +40,7 @@
         □   Other (please specify): ______________
 
     4. Has your music taste changed over the years? If yes, how?
-        ◌   No, it hasn't change.
+        ◌   No, it hasn't changed.
         ◌   Yes, it's chanched (please specify): ______________
 
     5. Do you listen to popular music from your current age group or from a different age group?
@@ -72,8 +73,9 @@
 
     The reason for the changes I made:
     1. I added spaces between the questions to improve visualization of the questionnaire and ease of perception.
-    2. Question 4. I replaced the word "so" in the question with the word "yes". This wording is clearer and easier to understand.
-    3. Question 8. I paraphrased the question and possible answers to better range the answers and reduce the pressure to answer a certain way.
+    2. Question 2. I added the "Neutral" answer option to unify answers to similar questions, capture true sentiment, reduce Bias, and improve data quality.
+    3. Question 4. I replaced the word "so" in the question with the word "yes". This wording is clearer and easier to understand.
+    4. Question 8. I paraphrased the question and possible answers to better range the answers and reduce the pressure to answer a certain way.
     ```
 
 3. Could the purpose of your survey have been fulfilled through an observational study? If yes, how? If no, why not?
